@@ -1,0 +1,250 @@
+/* Styles for the header (banner) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the banner container */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the logo */
+.banner img {
+    width: 90px;
+    height: auto;
+}
+
+/* Styles for the banner text */
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.banner-text p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Media query for responsive design (adjust as needed) */
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner img {
+        margin-bottom: 10px;
+    }
+}
+/* Styles for the navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Styles for the unordered list (ul) */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the menu items (li) */
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Styles for the links (a) in the menu */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Add a smooth transition effect on link hover */
+}
+
+/* Styles for the links on hover */
+nav a:hover {
+    color: #a61d1d;
+}
+
+/* Add a border-bottom to the active link */
+nav a.current {
+    border-bottom: 3px solid #a61d1d;
+}
+/* Styles pour la section de présentation du contenu */
+.site-content {
+    background-image: url("https://assets.editorial.aetnd.com/uploads/2017/08/palestine-ap_327669110451.jpg?width=1920&height=960&crop=1920%3A960%2Csmart&quality=75&auto=webp"); /* Add the path to your background image */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Styles pour le conteneur de contenu */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles pour le titre */
+.site-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+/* Styles pour le texte de présentation */
+.site-content p {
+    font-size: 16px;
+    margin: 20px 0;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Media query pour la réactivité (ajustez selon vos besoins) */
+@media screen and (max-width: 768px) {
+    .site-content {
+        padding: 20px 0;
+    }
+    .site-content h2 {
+        font-size: 20px;
+    }
+    .site-content p {
+        font-size: 14px;
+    }
+}
+/* Styles pour la section du tableau */
+.historical-events {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Styles pour le conteneur de contenu */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles pour le titre */
+.historical-events h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styles pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styles pour les en-têtes de colonne */
+table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Styles pour les cellules du tableau */
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Styles pour les liens de détails */
+table a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Media query pour la réactivité (ajustez selon vos besoins) */
+@media screen and (max-width: 768px) {
+    .historical-events {
+        padding: 20px 0;
+    }
+    .historical-events h2 {
+        font-size: 20px;
+    }
+}
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Styles pour le conteneur de contenu */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles pour le titre du footer */
+footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styles pour la liste de liens du footer */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styles pour les éléments de liste du footer */
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+/* Styles pour les liens du footer */
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Ajout d'un effet de transition de couleur au survol */
+}
+
+/* Styles pour les liens au survol */
+.footer-links a:hover {
+    color: #b2110e;
+}
+
+/* Media query pour la réactivité (ajustez selon vos besoins) */
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 20px 0;
+    }
+    footer h3 {
+        font-size: 20px;
+    }
+    .footer-links a {
+        font-size: 14px;
+    }
+}
